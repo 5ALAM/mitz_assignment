@@ -1,0 +1,15 @@
+{
+    "orderCancellation": [
+        { "id": 1, "event": "order placed", "position": { "x": 50, "y": 0 },"type":"input" },
+        { "id": 2, "event": "shipped", "position": { "x": 50, "y": 100 } },
+        { "id": 3, "event": "out for delivery", "position": { "x": 50, "y": 300 },"type":"output"  },
+        { "id": 4, "event": "order cancelled", "position": { "x": 200, "y": 200 }}
+    ],
+    "orderReturn": [
+        { "id": 1, "event": "order placed","position": { "x": 50, "y": 0 },"type":"input" },
+        { "id": 2, "event": "shipped","position": { "x": 50, "y": 80 }},
+        { "id": 3, "event": "out for delivery" ,"position": { "x": 50, "y": 160 }},
+        { "id": 5, "event": "delivered","position": { "x": 50, "y": 240 }},
+        { "id": 6, "event": "returned","position": { "x": 50, "y": 320 },"type":"output" }
+    ]
+}
